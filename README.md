@@ -1,2 +1,2 @@
-# CPP_How_To_Program_Exercises
-C++ How to Program 10th Edition Exercises
+# C++ How To Program 10th Edition by Paul Deitel and Harvey Deitel
+My answers to the exercise problems in the book listed above. 
