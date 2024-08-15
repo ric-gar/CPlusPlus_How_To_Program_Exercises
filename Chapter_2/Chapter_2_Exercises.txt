@@ -1,0 +1,213 @@
+File name: Chapter_2_Exercises.txt
+Author: Ricardo Garcia
+Date: 08/14/2024
+Book: C++ How to Program 10th Edition by Paul Deitel and Harvey Deitel
+Description: Chapter 2 Exercise questions. 
+
+2.1
+a) main
+b) left brace, right brace
+c) semicolon.
+d) newline
+e) if
+
+2.2 
+a) False. Comments are ignored by the compiler. They don't cause the computer to
+   perform any action. 
+b) True
+c) True
+d) True
+e) False. Variable names are case sensitive. 
+f) True
+g) True
+h) False. Multiplication, division, and remainder have a higher precedence than
+   addition and subtraction. 
+i) False. Can use the newline character to output three lines.
+
+2.3 
+a) int c{0}, thisIsAVariable{0}, q76354{0}, number{0};
+b) std::cout << "Enter an integer: ";
+c) std::cin >> age;
+d) if (age != 7) 
+	std::cout << "The variable number is not equal to 7.\n" 
+e) std::cout << "This is a C++ program.\n"
+f) std::cout << "This is a C++\nprogram.\n"
+g) std::cout << "This\nis\na\nC++\nprogram.\n"
+h) std::cout << "This\tis\ta\tC++\tprogram.\n"
+
+2.4
+a) // This program calculates the product of three integers.
+b) int x{0}, y{0}, z{0}, result{0};
+c) cout << "Enter three integers: ";
+d) cin >> x >> y >> z;
+e) result = x * y * z;
+f) cout << "The product is " << result;
+g) return 0;
+
+2.5
+// This program calculates the product of three integers.
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	int x{0}, y{0}, z{0}, result{0};
+	
+	// prompt user to enter input and read input
+	cout << "Enter three integers: ";
+	cin >> x >> y >> z;
+	
+	// calculate product
+	result = x * y * z;
+	
+	// output result
+	cout << "The product is " << result;
+	return 0;
+}
+
+2.6 
+a) semicolon shouldn't be used after if statements right parentheses. 
+   Correction:
+   if (c < 7) { 
+	cout << "c is less than 7\n";
+   }
+b) Replace => with >=
+   Correction:
+   if (c >= 7) {
+	cout << "c is equal to or greater than 7\n";
+   }
+
+2.7 
+a) std::cin is the input stream object that is used to input data. 
+b) std::cout is the output stream object that is used to output data. 
+
+2.8 
+a) comments
+b) std::cout (standard output stream object).
+c) if
+d) assignment
+e) std::cin (standard input stream object)
+
+2.9
+a) std::cout << "Enter two numbers."
+b) a = b * c;
+c) // This program calculates payroll. 
+d) std::cin >> a >> b >> c; 
+
+2.10
+a) False. The assignment operator is right to left. 
+b) True
+c) False. The parentheses turn this into a string literal. 
+d) False. First, multiplication, division, and remainder are evaluated
+   left to right. Second, addition and subtraction are then evaluated
+   left to right. 
+e) False. h22 is a valid variable name. 
+
+2.11
+a) Division and remainder
+b) The innermost parentheses.
+c) variable
+
+2.12
+a) 2
+b) 4
+c) x=
+d) x = 2
+e) 5 = 5
+f) nothing
+g) nothing
+h) nothing
+i) newline character
+
+2.13
+a and b
+
+2.14
+a, d, and e. d 
+
+2.15 
+a) x = 7 + 3 * 6 / 2 - 1;
+   Multiplication: 3 * 6 = 18
+   x = 7 + 18 / 2 - 1;
+   Division: 18 / 2 = 9
+   x = 7 + 9 - 1;
+   Addition: 7 + 9 = 16
+   x = 16 - 1;
+   Subtraction: 16 - 1 = 15 
+   x = 15;
+   Assignment
+b) x = 2 % 2 + 2 * 2 - 2 / 2;
+   Remainder: 2 % 2 = 0
+   x = 0 + 2 * 2 - 2 / 2
+   Multiplication: 2 * 2 = 4
+   x = 0 + 4 - 2 / 2;
+   Division: 2 / 2 = 1
+   x = 0 + 4 - 1;
+   Addition: 0 + 4 = 4
+   x = 4 - 1;
+   Subtraction: 4 - 1 = 3
+   x = 3
+   Assignment
+c) x = (3 * 9 * (3 + (9 * 3 / (3))));
+   Parentheses: (3) = 3
+   x = (3 * 9 * (3 + (9 * 3 / 3)));
+   Parentheses: (9 * 3 / 3)
+   	Multiplication: 9 * 3 = 27
+	x = (3 * 9 (3 + (27 / 3)));
+   	Division: 27 / 3 = 9
+   x = (3 * 9 * (3 + 9));
+   Parentheses: (3 + 9)
+   	Addition: 3 + 9 = 12
+   x = (3 * 9 * 12);
+   Parentheses: (3 * 9 * 12)
+   	Multiplication: 3 * 9 = 27
+	x = (27 * 12);
+   	Multiplication: 27 * 12 = 324
+   x = 324
+   Assignment
+
+2.16
+See Exercise_2.16.cpp
+
+2.17
+See Exercise_2.17.cpp
+
+2.18
+See Exercise_2.18.cpp
+
+2.19
+See Exercise_2.19.cpp
+
+2.20
+See Exercise_2.20.cpp
+
+2.21
+See Exercise_2.21.cpp
+
+2.22
+*
+**
+***
+****
+*****
+
+2.23
+See Exercise_2.23.cpp
+
+2.24
+See Exercise_2.24.cpp
+
+2.25
+See Exercise_2.25.cpp
+
+2.26
+See Exercise_2.26.cpp
+
+2.27
+See Exercise_2.27.cpp
+
+2.28
+See Exercise_2.28.cpp
+
+2.29
+See Exercise_2.29.cpp

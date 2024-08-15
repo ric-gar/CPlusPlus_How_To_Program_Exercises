@@ -2,7 +2,7 @@
 File name: Exercise_2.19.cpp
 Author: Ricardo Garcia
 Date: 08/14/2024
-Book: C++, How to Program 10th edition by Paul Deitel and Harvey Deitel
+Book: C++ How to Program 10th edition by Paul Deitel and Harvey Deitel
 Exercise: 2.19 Page 69
 Description: Read three different integer numbers and calculate the sum, average, product,
 			 smallest number, and largest number. 

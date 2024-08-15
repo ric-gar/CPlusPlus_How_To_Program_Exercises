@@ -1,8 +1,8 @@
 /*
-File name: Exercise_2.18
+File name: Exercise_2.18.cpp
 Author: Ricardo Garcia
 Date: 08/14/2024
-Book: C++, How to Program 10th edition by Paul Deitel and Harvey Deitel
+Book: C++ How to Program 10th edition by Paul Deitel and Harvey Deitel
 Exercise: 2.18 Page 69
 Description: Take in two numbers as user input and print the largest number
              or that the numbers are equal. 
