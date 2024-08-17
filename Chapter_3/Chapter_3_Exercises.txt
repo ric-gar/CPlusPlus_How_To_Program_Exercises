@@ -1,0 +1,71 @@
+File name: Chapter_3_Exercises.txt
+Author: Ricardo Garcia
+Book: C++ How to Program 10th Edition by Paul Deitel and Harvey Deitel
+Description: Chapter 3 Exercises
+
+3.1
+a) class. 
+b) .h
+c) type, parameter name
+d) data-member.
+e) access specifier.
+f) void
+g) getline 
+h) #include
+
+3.2
+a) False. Function naming convention uses camel case. 
+b) True
+c) True
+d) False. Data members declared in a member function are local variables. 
+e) True
+f) True
+
+3.3 
+A local variable has limited scope and can only be accessed in the block that it is
+declared in. Data members can be accessed by all the member functions in the 
+respective class. 
+
+3.4 
+Function parameters specify additional information the function needs to perform its
+task. Parameters exist in function declerations and arguments exist in the function
+call.
+
+3.5 
+A default constructor is implicitly called when creating an object of a class that 
+does not define a constructor. The default constructor, in regards to data members,
+will not initialize the fundamental data types, but will call the default 
+constructor of the data-member objects. 
+
+3.6 
+Their purpose is to store the attributes of a class. Data members are variables that 
+are defined in the class but outside the body of a function. They exist before, 
+during, and after member functions execute. 
+
+3.7 
+A string can utilize a using declaration (using std::string;) or prefix string with
+std:: to use string without inserting a using directive. 
+
+3.8 
+The set and get functions are used to encapsulate and protect the information stored 
+in data members. Set functions are used to validate the arguments and reject
+invalid information. Get functions are used to customize the output of data members
+while protecting the information stored. 
+
+3.9 
+See Exercise_3.09
+
+3.10 
+See Exercise_3.10
+
+3.11
+See Exercise_3.11
+
+3.12
+See Exercise_3.12
+
+3.13
+See Exercise_3.13
+
+3.14
+Account account1{ 1234, "John", "Doe", 100.34 ";
