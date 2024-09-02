@@ -1,0 +1,37 @@
+File name: Pseudocode.txt
+Author: Ricardo Garcia
+Date: 08/30/2024
+Book: C++ How to Program 10th edition by Paul Deitel and Harvey Deitel
+Exercise: 4.16 Page 151-152
+Description: Pseudocode for Exercise 4.16
+
+
+-Top-
+Calculate the salary of an employee for hourly and overtime pay.
+
+
+--First Refinement--
+
+Initialize variables
+Read input for hours worked and hourly rate
+Calculate salary
+Print results
+
+
+--Second Refinement--
+
+Initialize hours worked to zero (int)
+Prompt user to enter the number of hours worked (possible sentinel value)
+Read input and give value to hours worked
+
+while sentinel value is not entered
+
+	Prompt user to enter hourly rate
+	Read input and give value to hourly rate
+
+	Print the salary, to two decimal places, using a conditional operator (hours worked is <= 40)
+		If conditional operator is true print hours worked * hourly rate
+		Else conditional operator is false print (hourly rate * 40) + (hourly rate * 1.5 * (hours worked - 40))
+
+	Prompt user to enter the numbers of hours worked (possible sentinel value)
+	Read input and give value to hours worked

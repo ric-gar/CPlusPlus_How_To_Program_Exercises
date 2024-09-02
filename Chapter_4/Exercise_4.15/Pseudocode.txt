@@ -1,0 +1,34 @@
+File name: Pseudocode.txt
+Author: Ricardo Garcia
+Date: 08/30/2024
+Book: C++ How to Program 10th edition by Paul Deitel and Harvey Deitel
+Exercise: 4.15 Page 151
+Description: Pseudocode for Exercise 4.15
+
+
+-Top-
+
+Calculate a salesperson's gross sales for the week.
+
+
+--First Refinement--
+
+Initialize variables
+Read user input for sales
+Calculate Salary
+Print results
+
+
+--Second Refinement--
+
+Initialize sales to zero
+Prompt user to enter sales (possible sentinel value)
+Read input
+
+while sentinel value is not read
+	
+	Calculate salary (200 + sales * 1.09) and initialize value to salary
+	Print salary to hundredths of a decimal place
+
+	Prompt user to enter sales (possible sentinel value)
+	Read input

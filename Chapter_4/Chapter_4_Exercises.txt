@@ -1,0 +1,293 @@
+File name: Chapter_4_Exercises.txt
+Author: Ricardo Garcia
+Book: C++ How to Program 10th Edition by Paul Deitel and Harvey Deitel
+Description: Chapter 4 Exercises
+
+4.1
+a) sequence, selection, iteration
+b) if...else double-selection
+c) counter-controlled
+d) sentinel
+
+4.2
+x = x + 1;
+x++;
+++x;
+x += 1;
+
+4.3
+a) z = x++ + y;
+b) if (count > 10)
+   	std::cout << "Count is greater than 10";
+c) total -= --x;
+d) q = q % divisor;
+   q %= divisor;
+
+4.4
+a) unsigned int sum{0};
+b) unsigned int x{1};
+c) sum += x;
+d) std::cout << "The sum is: " << sum;
+
+4.5
+#include <iostream>
+
+int main() {
+	unsigned int sum{0};
+	unsigned int x{1};
+
+	while (x <= 10) {
+		sum  += x++;
+	}
+
+	std::cout << "The sum is: " << sum;
+
+	std::cout << "\n"; return 0;
+}
+
+4.6
+a) product = 5 * 5 = 25
+   x = 6
+b) quotient = 5 / 6 = 0
+   x = 6
+
+4.7
+a) std::cin >> x;
+b) std::cin >> y;
+c) unsigned int i{1};
+d) unsigned int power{1};
+e) power *= x;
+f) ++i;
+g) if (i <= y)
+h) std::cout << power;
+
+4.8
+#include <iostream>
+
+int main() {
+	std::cout << "Input x: ";
+	unsigned int x{0};
+	std::cin >> x;
+
+	std::cout << "Input y: ";
+	unsigned int y{0};
+	std::cin >> y;
+
+	unsigned int i{1};
+	unsigned int power{1};
+
+	while (i <= y) {
+		power *= x;
+		++i;
+	}
+
+	std::cout << "Power: " << power;
+
+	std::cout << std::endl; return 0;
+}
+
+4.9
+a) while (c <= 5) {
+	product *= c;
+	++c;
+   }
+b) cin >> value;
+c) if (gender ==1) {
+	cout << "Woman" << endl;
+   }
+   else {
+	cout << "Man" << endl;
+   }
+
+4.10
+This is an infinite loop because the variable z does not change its value.
+
+4.11
+a) if (age >= 65) {
+	cout << "Age is greater than or equal to 65" << endl;
+   }
+   else {
+	cout << "Age is less than 65" << endl;
+   }
+b) if (age >= 65) {
+	cout << "Age is greater than or equal to 65" << endl;
+   }
+   else {
+	cout << "Age is less than 65" << endl;
+   }
+c) unsigned int x{1};
+   unsigned int total{0};
+
+   while (x <= 10) {
+	total += x;
+	++x;
+   }
+d) while (x <= 100) {
+	total += x;
+	++x;
+   }
+e) while (y > 0) {
+	cout << y << endl;
+	--y;
+   }
+
+4.12
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
+Total is 385
+
+4.13
+See folder Exercise_4.13
+
+4.14
+See folder Exercise_4.14
+
+4.15
+See folder Exercise_4.15
+
+4.16
+See folder Exercise_4.16
+
+4.17
+See folder Exercise_4.17
+
+4.18
+See folder Exercise_4.18
+
+4.19
+See folder Exercise_4.19
+
+4.20
+See folder Exercise_4.20
+
+4.21
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+
+4.22
+>>>>>>>>>>
+<<<<<<<<<<
+>>>>>>>>>>
+<<<<<<<<<<
+>>>>>>>>>>
+<<<<<<<<<<
+>>>>>>>>>>
+<<<<<<<<<<
+>>>>>>>>>>
+<<<<<<<<<<
+
+4.23
+if (x >5) {
+	if (y > 5)
+		cout << "x and y are > 5";
+} else {
+	cout << "x is <= 5";
+}
+
+4.24
+a) x = 9; y = 11
+   *****
+   $$$$$
+
+   x = 11; y = 9
+   $$$$$
+
+b) x = 9; y = 11
+   *****
+
+   x = 11; y = 9
+   #####
+   $$$$$
+
+4.25
+a) no modification necessary
+b)
+if ( y == 8) {
+	if ( x == 5 )
+		cout << "@@@@@" << endl;
+}
+else {
+	cout << "#####" << endl;
+	cout << "$$$$$" << endl;
+	cout << "&&&&&" << endl;
+}
+
+c)
+if ( y == 8) {
+	if ( x == 5 )
+		cout << "@@@@@" << endl;
+}
+else {
+	cout << "#####" << endl;
+	cout << "$$$$$" << endl;
+}
+cout << "&&&&&" << endl;
+
+d)
+if ( y == 8) {
+	if ( x == 5 )
+		cout << "@@@@@" << endl;
+}
+else {
+	cout << "#####" << endl;
+	cout << "$$$$$" << endl;
+	cout << "&&&&&" << endl;
+}
+
+4.26
+See folder Exercise_4.26
+
+4.27
+See folder Exercise_4.27
+
+4.28
+See folder Exercise_4.28
+
+4.29
+See folder Exercise_4.29
+
+4.30
+The program will overflow the integer variable. Overflow values are unpredictable
+and will eventually generate a zero value. Once this occurs, the program will 
+infinitely output zero.
+
+4.31
+See folder Exercise_4.30
+
+4.32
+The preincrement operator does not work with expressions; must be used with
+variables. To fix this statement: cout << x + y + 1;
+
+4.33
+See folder Exercise_4.33
+
+4.34
+See folder Exercise_4.34
+
+4.35 part a
+See folder Exercise_4.35a
+
+4.35 part b
+See folder Exercise_4.35b
+
+4.35 part c
+See folder Exercise_4.35c
+
+4.36
+See folder Exercise_4.36

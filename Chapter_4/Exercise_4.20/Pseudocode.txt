@@ -1,0 +1,45 @@
+File name: Pseudocode.txt
+Author: Ricardo Garcia
+Date: 08/31/2024
+Book: C++ How to Program 10th edition by Paul Deitel and Harvey Deitel
+Exercise: 4.20 Page 152
+
+
+-Top-
+
+Process the exam results and decide if teacher receives a bonus
+
+
+--First Refinement--
+
+Initialize variables
+Prompt user to enter exam result and read input
+Process exam result as pass or failure
+Check that the exam result entered is valid
+Print if the teacher receives a bonus
+
+
+--Second Refinement--
+
+Initialize pass to zero
+Initialize failures to zero
+Initialize student counter to 1
+
+while loop that iterates 10 times
+
+	Initialize result to zero
+	Prompt user to enter result and read input
+
+	if result entered is 1
+		increment passes by 1
+		increment student counter by 1
+	else if result entered is 2
+		increment failures by 1
+		increment student counter by 1
+	else
+		Print error message for incorrect result value
+
+Print the number of passes and failures
+
+if the number of passes > 8
+	Print that the instructor gets a bonus

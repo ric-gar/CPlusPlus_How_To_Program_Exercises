@@ -1,0 +1,48 @@
+File name: Pseudocode.txt
+Author: Ricardo Garcia
+Date: 09/01/2024
+Book: C++ How to Program 10th edition by Paul Deitel and Harvey Deitel
+Exercise: 4.33 Page 156
+
+
+-Top-
+
+Determine if three nonzero integers are the sides of a right triangle
+
+
+--First Refinement--
+
+Prompt user to enter three integers and read input
+Check if they can represent sides of a right triangle
+Print result
+
+
+--Second Refinement--
+
+Prompt user to enter first nonzero integer
+Declare firstInt
+Read input and give the value to firstInt
+
+Prompt user to enter second nonzero integer
+Declare secondInt
+Read input and give the value to secondInt
+
+Prompt user to enter third nonzero integer
+Decalre thirdInt
+Read input and give the value to thirdInt
+
+Decalare isRightTriangle variable
+
+if (firstInt^2 + secondInt^2 = thirdInt^2)
+	Set isRightTriangle to true
+else if (firstInt^2 + thirdInt^2 = secondInt^2)
+	Set isRightTriangle to true
+else if (secondInt^2 + thirdInt^2 = firstInt^2)
+	Set isRightTriangle to true
+else
+	Set isRightTriangle to false
+
+if (isRightTriangle)
+	Print that the sides represent a right triangle
+else
+	Print that the sides don't represent a right triangle

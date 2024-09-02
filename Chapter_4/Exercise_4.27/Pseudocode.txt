@@ -1,0 +1,32 @@
+File name: Pseudocode.txt
+Author: Ricardo Garcia
+Date: 09/01/2024
+Book: C++ How to Program 10th edition by Paul Deitel and Harvey Deitel
+Exercise: 4.27 Page 152
+
+
+-Top-
+
+Read a five-digit integer and determine if it is a palindrome.
+
+
+--First Refinement--
+
+Prompt user to input five-digit integer, create variable, and read input
+Determine if number is a palindrome
+Print result
+
+
+--Second Refinement--
+
+Prompt user to enter five-digit integer
+Create five-digit integer variable
+Read input and give value to five-digit integer
+
+if first digit is equal to last digit
+	if second digit is equal to fourth digit
+		Print that the number is a palindrome
+	else
+		Print that the number is not a palindrome
+else
+	Print that the number is not a palindrome

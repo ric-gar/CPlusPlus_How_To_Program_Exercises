@@ -1,0 +1,21 @@
+File name: Pseudocode.txt
+Author: Ricardo Garcia
+Date: 09/01/2024
+Book: C++ How to Program 10th edition by Paul Deitel and Harvey Deitel
+Exercise: 4.31 Page 155
+
+
+-Top-
+
+Using the radius, calculate the diameter, circumference, and area of a circle.
+
+
+--First Refinement--
+
+Prompt user for input
+Declare radius variable as double
+Read input and give the value to radius variable
+
+Calculate diameter ( 2 * radius) and print result
+Calculate circumference ( 2 * 3.14159 * radius) and print result
+Calculate area (3.14159 * radius * radius) and print result

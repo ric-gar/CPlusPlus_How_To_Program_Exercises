@@ -1,0 +1,57 @@
+File name: Pseudocode.txt
+Author: Ricardo Garcia
+Date: 09/01/2024
+Book: C++ How to Program 10th edition by Paul Deitel and Harvey Deitel
+Exercise: 4.35 Part c Page 156
+
+
+-Top-
+
+Calculate e^x with a desired accuracy entered by the user
+
+
+--First Refinement--
+
+Prompt user for x value to solve e^x
+Prompt user for desired accuracy
+Calculate e^x
+Print results
+
+
+--Second Refinement--
+
+Prompt user for x value
+Declare integer variable (x)
+Read input and give value to x
+
+Prompt user for desired accuracy
+Declare integer variable (numTerms)
+Read input and give value to numTerms
+
+Initialize double variable to 1 (ex)
+
+while number of terms is greater than 1
+
+	Initialize squared terms (squaredTerms) to (numTerms - 1)
+	Initialize squared sum (squaredSum) to 1
+
+	while loop until squared terms > 0
+
+		squaredSum = squaredSum * x
+
+		decrement squared terms to terminate loop
+
+	Initialize factorial terms (factorialTerms) to (numTerms - 1)
+	Initailize factorial sum (factorialSum) to 1
+
+	while factorial terms > 1
+
+		Set factorialSum to factorialSum * factorialTerms
+
+		decrement factorial terms to terminate loop
+
+	Calculate e^x by e^x + squared sum / factorial sum
+
+	decrement number of terms to terminate loop
+
+Print e^x
