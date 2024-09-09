@@ -1,0 +1,55 @@
+File name: Pseudocode.txt
+Author: Ricardo Garcia
+Date: 09/04/2024
+Book: C++ How to Program 10th edition by Paul Deitel and Harvey Deitel
+Exercise: 5.16 Page 206-207
+
+
+-Top-
+
+Display the bars of asterisks after reading five input numbers.
+
+
+--First Refinement--
+
+Initialize variables
+Prompt and read input
+Print asterisks
+
+
+--Second Refinement--
+
+Initialize number_1, number_2, number_3, number_4, and number_5 to zero
+
+Prompt user to enter five numbers and read input
+Give the values to number_1, number_2, number_3, number_4, and number_5, respectively
+
+Print newline character
+
+Print number_1 (to width of 2) and colon
+for (unsigned int counter{1}; counter <= number_1; ++counter)
+	Print asterisk
+
+Print newline character
+
+Print number_2 (to width of 2) and colon
+for (unsigned int counter{1}; counter <= number_2; ++counter)
+	Print asterisk
+
+Print newline character
+
+Print number_3 (to width of 2) and colon
+for (unsigned int counter{1}; counter <= number_3; ++counter)
+	Print asterisk
+
+Print newline character
+
+Print number_4 (to width of 2) and colon
+for (unsigned int counter{1}; counter <= number_4; ++counter)
+	Print asterisk
+
+Print newline character
+
+Print number_5 (to width of 2) and colon
+for (unsigned int counter{1}; counter <= number_5; ++counter)
+	Print asterisk

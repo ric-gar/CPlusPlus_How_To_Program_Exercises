@@ -1,0 +1,86 @@
+File name: Pseudocode.txt
+Author: Ricardo Garcia
+Date: 09/07/2024
+Book: C++ How to Program 10th edition by Paul Deitel and Harvey Deitel
+Exercise: 5.28 Page 208
+
+
+-Top-
+
+Use iteration and switch statments to print the song "The Twelve Days of Christams."
+
+
+--First Refinement--
+
+Process the day of Christmas
+Switch case to handle the day
+Switch case to handle the verse
+
+
+--Second Refinement--
+
+
+for loop to process day(day{1}; day <= 12; ++day)
+
+	Print "On the " 
+
+	switch (day)
+	case 1 (break)
+		Print "first"
+	case 2 (break)
+		Print "second"
+	case 3 (break)
+		Print "third"
+	case 4 (break)
+		Print "fourth"
+	case 5 (break)
+		Print "fifth"
+	case 6 (break)
+		Print "sixth"
+	case 7 (break)
+		Print "seventh"
+	case 8 (break)
+		Print "eighth"
+	case 9 (break)
+		Print "ninth"
+	case 10 (break)
+		Print "tenth"
+	case 11 (break)
+		Print "eleventh"
+	case 12 (break)
+		Print "twelfth"
+	default
+		Print error message
+
+	Print " day of Christmas my true love sent to me"
+
+	switch(day)
+	case 12
+		Print "Twelve drummers drumming,"
+	case 11
+		Print "Eleven pipers piping,"
+	case 10
+		Print "Ten lords a-leaping,"
+	case 9
+		Print "Nine ladies dancing,"
+	case 8
+		Print "Eight maids a-milking,"
+	case 7
+		Print "Seven swans a-swimming,"
+	case 6
+		Print "Six geese a-laying,"
+	case 5
+		Print "Five gold rings,"
+	case 4
+		Print "Four calling birds,"
+	case 3
+		Print "Three French hens,"
+	case 2
+		Print "Two turtle doves,"
+	case 1
+		if day == 1
+			Print "A partridge in a pear tree."
+		else
+			Print "And a partridge in a pear tree."
+	default
+		Print error message

@@ -1,0 +1,35 @@
+File name: Pseudocode.txt
+Author: Ricardo Garcia
+Date: 09/04/2024
+Book: C++ How to Program 10th edition by Paul Deitel and Harvey Deitel
+Exercise: 5.13 Page 206
+
+
+-Top-
+
+Calculate factorials of 1 through 20 and display them in tabular format.
+
+
+--First Refinement--
+
+Print tabular header
+Loop from 1 to 20
+Calculate factorial
+Print factorial in tabular format
+
+
+--Second Refinement--
+
+Print n! with a right width of 4
+Print " | "
+Print Result with a right width of 20
+Print a dash 28 times
+
+Initialize factorial to long long 1
+
+for loop from 1 to 20; initialize unsigned integer n to 0; increment n by 1
+	
+	Assign factorial (factorial * n)
+	Print n! with a right width of 4
+	Print " | "
+	Print factorial with a right width of 20

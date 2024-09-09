@@ -1,0 +1,269 @@
+File name: Chapter_5_Exercises.txt
+Author: Ricardo Garcia
+Book: C++ How to Program 10th Edition by Paul Deitel and Harvey Deitel
+Description: Chapter 5 Exercises
+
+5.1
+a) for, while
+b) after
+c) switch
+d) continue
+e) logical AND
+f) false
+
+5.2
+a) False. The default case is optional.
+b) False. A break statement is not required. However, the program will either exit
+   the swith statement or proceed to the next case.
+c) False. This expression is true if both x > y and a < b is true.
+d) True.
+
+5.3
+a)
+unsigned int sum{0};
+for (unsigned int count{1}; count <= 99; count += 2) {
+	unsigned int sum{0};
+	sum += count;
+}
+
+b)
+std::cout << std::fixed << std::left << std::setw(15) << std::setprecision(1) << 333.546372
+	<< std::setw(15) << std::setprecision(2) << 333.546372
+	<< std::setw(15) << std::setprecision(3) << 333.546372;
+
+Output: 333.5          333.55         333.546
+
+c)
+std::cout << std::fixed << std::setw(10) << std::setprecision(2) << pow(2.5, 3);
+
+Output:     15.62
+
+d)
+unsigned int count{ 1 };
+while(count <= 20) {
+	std::cout << count;
+	if (count % 5 == 0)
+		std::cout << '\n';
+	else
+		std::cout << '\t';
+	count++;
+}
+
+e)
+for (unsigned int count{ 1 }; count <= 20; count++) {
+	std::cout << count;
+	if (count % 5 == 0)
+		std::cout << '\n';
+	else
+		std::cout << '\t';
+}
+
+5.4
+a)
+unsigned int x{1};
+while (x <= 10) {
+	+=x;
+}
+
+b)
+for (unsigned int y{1}; y <= 10; y++) {
+	cout << y / 10.0 << endl;
+}
+
+c)
+switch (n) {
+	case 1:
+		cout << "The number is 1" << endl;
+		break;
+	case 2:
+		cout << "The number is 2" << endl;
+		break;
+	default:
+		cout << "The number is not 1 or 2" << endl;
+}
+
+d)
+unsigned int n{1};
+while (n <= 10) {
+	cout << n++ << endl;
+}
+
+5.5
+A control variable (or loop counter), the control variable's initial value, the
+control variable's increment that's applied during each iteration of the loop, and
+the loop-continuation condition that determines if looping should continue.
+
+5.6
+The for iteration statement includes the four basic elements of counter-controlled
+iteration in the for header. The for iteration statement is typically used for 
+counter-controlled iteration.
+	The while iteration statement doesn't have the four basic elements of 
+counter-controlled in a single line but instead has two elements before the while,
+one element in the condition, and one element in the body. The while loop is
+typically used for sentinel-controlled iteration.
+
+5.7
+A situation to use a do...while statement is when processing an average of results
+where at least one result is expected. Using a do...while ensures that a divide-by-
+zero error doesn't occur since at least one result will be entered.
+
+5.8
+A break statement will exit the current body and proceed with the first statement
+after the body that it has exited. A continue statement will skip the remaining
+of the body and begin at the next iteration of the body.
+
+5.9
+a) for (unsigned int x{100}; x >= 1; ++x) {
+	cout << x << endl;
+   }
+
+b)
+switch (value % 2) {
+	case 0:
+		cout << "Even integer" << endl;
+		break;
+	case 1:
+		cout << "Odd integer" << endl;
+}
+
+c)
+for (unsigned int x{19}; x >= 1; x -= 2) {
+	cout << x << endl;
+}
+
+d)
+unsigned int count{2};
+
+do {
+	cout << counter << endl;
+	count += 2;
+} while (counter <= 100);
+
+5.10
+@@@@@
+@@@@@
+@@@@@
+@@@@@
+@@@@@
+@@@@@
+@@@@@
+@@@@@
+@@@@@
+@@@@@
+
+5.11
+See Exercise_5.11 folder for source code.
+
+5.12
+See Exercise_5.12 folder for source code.
+
+5.13
+See Exercise_5.13 folder for source code.
+The difficulty with calculating factorial 100 is that there will be an overflow of
+data type long long.
+
+5.14
+See Exercise_5.14 folder for source code.
+
+5.15
+See Exercise_5.15 folder for source code.
+
+5.16
+See Exercise_5.16 folder for source code.
+
+5.17
+See Exercise_5.17 folder for source code.
+
+5.18
+a) 1 or nonzero
+b) 0
+c) 1 or nonzero
+d) 0
+e) 1 or nonzero
+f) 0
+g) 0
+h) 1 or nonzero
+i) 0
+
+5.19
+See Exercise_5.19 folder for source code.
+It took approximately 136,233 terms to have a value that begins with 3.14159.
+
+5.20
+See Exercise_5.20 folder for source code.
+
+5.21
+See Exercise_5.21 folder for source code.
+
+5.22
+See Exercise_5.22 folder for source code.
+a) !(x < 5 || y >= 7)
+b) !(a == b && g != 5)
+c) !(x <= 8) || !(y > 4)
+d) !(i > 4) && !(j <= 6)
+
+5.23
+See Exercise_5.23 folder for source code.
+
+5.24
+See Exercise_5.24 folder for source code.
+
+5.25
+See Exercise_5.25 folder for source code.
+To remove a break statement from a loop, move the break statement exit condition
+into the loop loop-continuation test. This can be accomplished by having the loop
+condition check that two conditions are satisfied in order to continue looping.
+
+5.26
+****
+****
+****
+
+****
+****
+****
+
+****
+****
+****
+
+****
+****
+****
+
+****
+****
+****
+
+5.27
+See Exercise_5.27 folder for source code.
+To remove a continue statement from a loop in a program, increment the variable
+twice instead of once to skip a desired iteration.
+
+5.28
+See Exercise_5.28 folder for source code.
+
+5.29
+See Exercise_5.29 folder for source code.
+
+5.30
+See Exercise_5.30 folder for source code.
+
+5.31
+See Exercise_5.31 folder for source code.
+
+5.32
+See Exercise_5.32 folder for source code.
+
+5.33
+See Exercise_5.33 folder for source code.
+
+5.34
+See Exercise_5.34 folder for source code.
+
+5.35
+See Exercise_5.35 folder for source code.
+
+5.36
+See Exercise_5.36 folder for source code.
+Precision 15 shows the first representational error of storing 123.02 in a double variable.

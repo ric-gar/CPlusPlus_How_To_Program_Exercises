@@ -1,0 +1,74 @@
+File name: Pseudocode.txt
+Author: Ricardo Garcia
+Date: 09/04/2024
+Book: C++ How to Program 10th edition by Paul Deitel and Harvey Deitel
+Exercise: 5.17 Page 207
+
+
+-Top-
+
+Calculate and display the total retail value of all products sold.
+
+
+--First Refinement--
+
+Initialize variables
+Prompt user and read input
+Calculate current sale
+Print final sale
+
+
+--Second Refinement--
+
+Set fixed setprecision for two decimal places
+
+Initialize product number and quantity sold to zero
+Initialize quantity1, quantity2, quantity3, quantity4, and quantity5 to zero
+Initialize final result to zero
+
+Print the 5 products and their respective prices
+
+Prompt user to enter a product number and quantity sold
+while sentinel value (end-of-file indicator) is not entered (ctrl^Z)
+Read input and give value to product number and quantity sold, respectively
+
+	switch for product number
+	case 1
+		Add quantity sold * product number + final result to final result
+		Assign quantity sold + quantity1 to quantity1
+		Print the current sale by quantity sold * product number
+		break
+		
+	case 2
+		Add quantity sold * product number + final result to final result
+		Assign quantity sold + quantity2 to quantity2
+		Print the current sale by quantity sold * product number
+		break
+		
+	case 3
+		Add quantity sold * product number + final result to final result
+		Assign quantity sold + quantity3 to quantity3
+		Print the current sale by quantity sold * product number
+		break
+
+	case 4
+		Add quantity sold * product number + final result to final result
+		Assign quantity sold + quantity4 to quantity4
+		Print the current sale by quantity sold * product number
+		break
+
+	case 5
+		Add quantity sold * product number + final result to final result
+		Assign quantity sold + quantity5 to quantity5
+		Print the current sale by quantity sold * product number
+		break
+
+	default
+		Print error message for incorrect input
+
+	Print the 5 products and their respective prices
+
+	Prompt user to enter a product number and quantity sold
+
+Print how many times the 5 products were sold respectively
+Print the total final sales

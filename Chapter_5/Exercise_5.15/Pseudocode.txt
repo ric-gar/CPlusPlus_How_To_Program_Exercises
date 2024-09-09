@@ -1,0 +1,61 @@
+File name: Pseudocode.txt
+Author: Ricardo Garcia
+Date: 09/04/2024
+Book: C++ How to Program 10th edition by Paul Deitel and Harvey Deitel
+Exercise: 5.15 Page 206
+
+
+-Top-
+
+Display the four triangle patterns on page 206 using only
+cout << '*';
+cout << ' ';
+cout << '\n';
+
+
+--First Refinement--
+
+Print triangle part a
+Print newline character(s) for spacing
+Print triangle part b
+Print newline character(s) for spacing
+Print triangle part c
+Print newline character(s) for spacing
+Print triangle part d
+Print newline character(s) for spacing
+
+
+--Second Refinement--
+
+for loop (unsigned int counter{1}; counter <= 10; ++counter)
+	for loop (unsigned int innerCounter{1}; innerCounter <= counter; ++innerCounter)
+		Print asterisk
+	Print newline character
+
+Print newline character
+
+
+for loop (unsigned int counter{1}; counter <= 10; ++counter)
+	for loop (unsigned int innerCounter{10}; innerCounter >= counter; --innerCounter)
+		Print asterisk
+	Print newline character
+
+Print newline character
+
+
+for loop (unsigned int counter{1}; counter <= 10; ++counter)
+	for loop (unsigned int innerCounter{1}; innerCounter < counter; ++innerCounter)
+		Print space
+	for loop (unsigned int innerCounter{10}; innerCounter >= counter; --innerCounter)
+		Print asterisk
+	Print newline character
+
+Print newline character
+
+
+for loop (unsigned int counter{1}; counter <= 10; ++counter)
+	for loop (unsigned int innerCounter{10}; innerCounter > counter; --innerCounter)
+		Print space
+	for loop (unsigned int innerCounter{1}; innerCounter <= counter; ++innerCounter)
+		Print astersik
+	Print newline character

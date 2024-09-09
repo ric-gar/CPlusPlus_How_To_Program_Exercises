@@ -1,0 +1,39 @@
+File name: Pseudocode.txt
+Author: Ricardo Garcia
+Date: 09/07/2024
+Book: C++ How to Program 10th edition by Paul Deitel and Harvey Deitel
+Exercise: 5.23 Page 208
+
+
+-Top-
+
+Print a diamond asterisk using only asterisk, space, or new line character.
+
+
+--First Refinement--
+
+Print top half of diamond
+Print bottom half of diamond
+
+
+--Second Refinement--
+
+for loop top half of diamond (row = 1; row <= 5; ++row)
+
+	for loop spaces (spaces = row; spaces < 5; ++spaces)
+		Print spaces
+
+	for loop asterisk (asterisk = 1; asterisk <= 2 * row - 1; ++asterisk)
+		Print asterisk
+
+	Print newline character
+
+for loop bottom half of diamond( row = 1; row <= 4; ++row)
+	
+	for loop spaces (spaces = 1; spaces <= row; ++spaces)
+		Print spaces
+
+	for loop asterisk (asterisk = 1; asterisk <= 9 - 2 * row; ++asterisk)
+		Print asterisk
+
+	Print newline character
