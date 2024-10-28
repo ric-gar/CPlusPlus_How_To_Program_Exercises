@@ -30,7 +30,7 @@ d) global namespace scope
 e) global namespace scope
 
 6.3
-See Chapter_6 folder for source code.
+See Chapter_6 for source code.
 
 6.4
 a) double hypotenuse(double side1, double side2)
@@ -97,7 +97,7 @@ This is a function parameter that passes a variable by reference.
 False. Some arguments are passed by reference.
 
 6.10
-See Exercise_6.10 folder for source code.
+See Exercise_6.10 for source code.
 
 6.11
 a) 7.5
@@ -109,13 +109,13 @@ f) -6
 g) -14
 
 6.12
-See Exercise_6.12 folder for source code.
+See Exercise_6.12 for source code.
 
 6.13
-See Exercise_6.13 folder for source code.
+See Exercise_6.13 for source code.
 
 6.14
-See Exercise_6.14 folder for source code.
+See Exercise_6.14 for source code.
 
 6.15
 a) Choosing numbers at random means every number in its range has an equal chance
@@ -250,7 +250,7 @@ See Exercise_6.27 for source code.
 See Exercise_6.28 for source code.
 
 6.29
-See Exercise_6.29 folder for source code.
+See Exercise_6.29 for source code.
 a)
 // Determine if a number is prime
 bool isPrime(int number) {
@@ -365,20 +365,20 @@ int qualityPoints() {
 }
 
 6.33
-See Exercise_6.33 folder for source code.
+See Exercise_6.33 for source code.
 
 6.34
-See Exercise_6.34 folder for source code.
+See Exercise_6.34 for source code.
 
 6.35
-See Exercise_6.35 folder for source code.
+See Exercise_6.35 for source code.
 If we guess between the highest possible value and lowest possible value for every
 guess, then we eliminate half of the numbers for every guess. This is equivalent
 to 10 / (2^10) = 0.9765625 or approximately 1. Therefore, with 10 guesses we should
 be able to guess the number at the worst case; best case we guess before 10 tries.
 
 6.36
-See Exercise_6.36 folder for source code.
+See Exercise_6.36 for source code.
 int power(int base, int exponent) {
 
 	if (exponent == 1)
@@ -388,7 +388,7 @@ int power(int base, int exponent) {
 }
 
 6.37
-See Exercise_6.37 folder for source code.
+See Exercise_6.37 for source code.
 unsigned long fibonacci(unsigned long number) {
 
 	// Return number for base cases n = 0 or n = 1
@@ -416,7 +416,6 @@ unsigned long fibonacci(unsigned long number) {
 }
 
 6.38
-See Exercise_6.38 folder for source code.
 void towersOfHanoi(unsigned int disks, unsigned int initial, unsigned int destination, unsigned int holding) {
 
 	if (1 == disks) {
@@ -430,14 +429,14 @@ void towersOfHanoi(unsigned int disks, unsigned int initial, unsigned int destin
 }
 
 6.39
-See Exercise_6.39 folder for source code.
+See Exercise_6.39 for source code.
 The recursion may suffer from performance issues because of overhead. However, the
 recursive solution is elegant and easier to demonstrate the correctness. The
 iterative version has less overhead, but is a cumbersome program and more difficult
 to understand.
 
 6.40
-See Exercise_6.40 folder for source code.
+See Exercise_6.40 for source code.
 
 6.41
 // Recursive GCD function
@@ -479,7 +478,7 @@ int mystery(int a, int b) {
 }
 
 6.45
-See Exercise_6.45 folder for source code.
+See Exercise_6.45 for source code.
 
 6.46
 a) Missing return type for function definition.
@@ -513,7 +512,7 @@ int sum(int n) {
 }
 
 6.47
-See Exercise_6.47 folder for source code.
+See Exercise_6.47 for source code.
 
 6.48
 #include <iostream>
@@ -629,7 +628,7 @@ double cube(double);
 int cube(int);
 
 6.54
-See Exercise_6.54 folder for source code.
+See Exercise_6.54 for source code.
 
 6.55
 enum class AccountType { SAVINGS, CHECKING, INVESTMENT };

@@ -152,10 +152,10 @@ do {
 @@@@@
 
 5.11
-See Exercise_5.11 folder for source code.
+See Exercise_5.11 for source code.
 
 5.12
-See Exercise_5.12 folder for source code.
+See Exercise_5.12 for source code.
 
 5.13
 See Exercise_5.13 folder for source code.
@@ -163,16 +163,16 @@ The difficulty with calculating factorial 100 is that there will be an overflow 
 data type long long.
 
 5.14
-See Exercise_5.14 folder for source code.
+See Exercise_5.14 for source code.
 
 5.15
-See Exercise_5.15 folder for source code.
+See Exercise_5.15 for source code.
 
 5.16
-See Exercise_5.16 folder for source code.
+See Exercise_5.16 for source code.
 
 5.17
-See Exercise_5.17 folder for source code.
+See Exercise_5.17 for source code.
 
 5.18
 a) 1 or nonzero
@@ -186,17 +186,17 @@ h) 1 or nonzero
 i) 0
 
 5.19
-See Exercise_5.19 folder for source code.
+See Exercise_5.19 for source code.
 It took approximately 136,233 terms to have a value that begins with 3.14159.
 
 5.20
-See Exercise_5.20 folder for source code.
+See Exercise_5.20 for source code.
 
 5.21
-See Exercise_5.21 folder for source code.
+See Exercise_5.21 for source code.
 
 5.22
-See Exercise_5.22 folder for source code.
+See Exercise_5.22 for source code.
 a) !(x < 5 || y >= 7)
 b) !(a == b && g != 5)
 c) !(x <= 8) || !(y > 4)
@@ -206,10 +206,10 @@ d) !(i > 4) && !(j <= 6)
 See Exercise_5.23 folder for source code.
 
 5.24
-See Exercise_5.24 folder for source code.
+See Exercise_5.24 for source code.
 
 5.25
-See Exercise_5.25 folder for source code.
+See Exercise_5.25 for source code.
 To remove a break statement from a loop, move the break statement exit condition
 into the loop loop-continuation test. This can be accomplished by having the loop
 condition check that two conditions are satisfied in order to continue looping.
@@ -236,15 +236,15 @@ condition check that two conditions are satisfied in order to continue looping.
 ****
 
 5.27
-See Exercise_5.27 folder for source code.
+See Exercise_5.27 for source code.
 To remove a continue statement from a loop in a program, increment the variable
 twice instead of once to skip a desired iteration.
 
 5.28
-See Exercise_5.28 folder for source code.
+See Exercise_5.28 for source code.
 
 5.29
-See Exercise_5.29 folder for source code.
+See Exercise_5.29 for source code.
 
 5.30
 See Exercise_5.30 folder for source code.
@@ -265,5 +265,5 @@ See Exercise_5.34 folder for source code.
 See Exercise_5.35 folder for source code.
 
 5.36
-See Exercise_5.36 folder for source code.
+See Exercise_5.36 for source code.
 Precision 15 shows the first representational error of storing 123.02 in a double variable.

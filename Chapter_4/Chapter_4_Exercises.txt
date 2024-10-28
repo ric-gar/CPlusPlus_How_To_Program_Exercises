@@ -145,28 +145,28 @@ e) while (y > 0) {
 Total is 385
 
 4.13
-See folder Exercise_4.13
+See Exercise_4.13 for source code.
 
 4.14
-See folder Exercise_4.14
+See Exercise_4.14 for source code.
 
 4.15
-See folder Exercise_4.15
+See Exercise_4.15 for source code.
 
 4.16
-See folder Exercise_4.16
+See Exercise_4.16 for source code.
 
 4.17
-See folder Exercise_4.17
+See Exercise_4.17 for source code.
 
 4.18
-See folder Exercise_4.18
+See Exercise_4.18 for source code.
 
 4.19
-See folder Exercise_4.19
+See Exercise_4.19 for source code.
 
 4.20
-See folder Exercise_4.20
+See Exercise_4.20 for source code.
 
 4.21
 ****
@@ -251,16 +251,16 @@ else {
 }
 
 4.26
-See folder Exercise_4.26
+See Exercise_4.26 for source code.
 
 4.27
-See folder Exercise_4.27
+See Exercise_4.27 for source code.
 
 4.28
-See folder Exercise_4.28
+See Exercise_4.28 for source code.
 
 4.29
-See folder Exercise_4.29
+See Exercise_4.29 for source code.
 
 4.30
 The program will overflow the integer variable. Overflow values are unpredictable
@@ -268,26 +268,26 @@ and will eventually generate a zero value. Once this occurs, the program will
 infinitely output zero.
 
 4.31
-See folder Exercise_4.30
+See Exercise_4.30 for source code.
 
 4.32
 The preincrement operator does not work with expressions; must be used with
 variables. To fix this statement: cout << x + y + 1;
 
 4.33
-See folder Exercise_4.33
+See Exercise_4.33 for source code.
 
 4.34
-See folder Exercise_4.34
+See Exercise_4.34 for source code.
 
 4.35 part a
-See folder Exercise_4.35a
+See Exercise_4.35a for source code.
 
 4.35 part b
-See folder Exercise_4.35b
+See Exercise_4.35b for source code.
 
 4.35 part c
-See folder Exercise_4.35c
+See Exercise_4.35c for source code.
 
 4.36
-See folder Exercise_4.36
+See folder Exercise_4.36 for source code.
